@@ -163,7 +163,6 @@ class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
     if (widget.onCancel != null) {
       widget.onCancel();
     }
-    Navigator.pop(context);
   }
 
   /// pressed confirm widget

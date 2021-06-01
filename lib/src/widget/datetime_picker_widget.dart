@@ -174,7 +174,6 @@ class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
           day.year, day.month, day.day, _currHour, _currMinute, _currSecond);
       widget.onConfirm(dateTime, _calcSelectIndexList());
     }
-    Navigator.pop(context);
   }
 
   /// notify selected datetime changed
